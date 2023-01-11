@@ -11,8 +11,8 @@ git remote -v : List the current remotes associated with the local repository.
 The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories.
 
 2. I have shell script to delete particular dependency ( repo is maven project ). before running the script i need to clone repo to my local, here point to note i should only clone master branch and only last commit ( last commit has all the code ) how would you do this?
-Ans: To clone single branch git clone -b master --single-branch <git url>
-     To clone latest commit  git clone -b master --single-branch --depth 1 <git url>
+Ans: To clone single branch git clone -b master --single-branch git url
+     To clone latest commit  git clone -b master --single-branch --depth 1 git url
 
 
 3. what is submodule and why we need submodule?
