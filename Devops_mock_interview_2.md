@@ -6,6 +6,9 @@ GIT
 ---------------------------------------------------------------------------------------------------------------------------------
 1. Lets say your organization has github and bitbucket to store code, you have cloned a repo onto your local and changed directory name. after some days one of your team members asks you to share clone link, how would you provide the same?
 Ans: git remote -v
+[What is a Git Remote? A remote repository in Git, also called a remote, is a Git repository that's hosted on the Internet or another network
+git remote -v : List the current remotes associated with the local repository.
+The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like bookmarks rather than direct links into other repositories.]
 
 3. I have shell script to delete particular dependency ( repo is maven project ). before running the script i need to clone repo to my local, here point to note i should only clone master branch and only last commit ( last commit has all the code ) how would you do this?
 4. what is submodule and why we need submodule?
