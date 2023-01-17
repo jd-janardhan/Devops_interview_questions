@@ -33,6 +33,7 @@ Unix and Shell scripting
 ---------------------------------------------------------------------------------------------------------------------
 10. write a script which accepts file or folder, if its folder delete it else print "this is a file"?
 11. How to check whether particular port is already in use or not?
+Ans: netstat -tunlp
 12. Logic for checking whether supplied string for a script is palindrome or not? what are all the commands you will use?
 13. command to get number of lines in a file?
 
