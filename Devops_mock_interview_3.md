@@ -44,6 +44,9 @@ test
 Maven dependency is a library or jar file that is stored on remote repository and upon proper detailed infomration in POM.xml, will be downloaded and reference in our project class path either upon compile , teting or during run time.
 9. What are 3 build life cycles in maven?
 10. In Which tag we will mention output artifact type( like jar, war or any other)?
+Ans: packaging tag, by default it will be jar.
+
+
 
 Unix and Shell scripting 
 ---------------------------------------------------------------------------------------------------------------------
