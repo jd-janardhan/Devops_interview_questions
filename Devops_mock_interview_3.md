@@ -22,8 +22,28 @@ mvn install -Dmaven.repo.local=/alternate/repo/location
 mvn help:effective-pom -Doutput=pom_eff.xml
 ```
 7. What are dependency and plugin in maven? Give one example for each?
-8. What are 3 build life cycles in maven?
-9. In Which tag we will mention output artifact type( like jar, war or any other)?
+Ans:
+Plugins
+Plugins are the basic building blocks of the maven build process. A maven build comprises of 
+multiple build steps/activities to be performed in building an project. An build activity or step is 
+represented by an maven plugin
+Plugin can be treated as component and it contains multiple goals, each goal performs an activity 
+or an action as part of the build process.
+archetype is a plugin it has multiple goals
+|-generate
+|-create-from-project
+install is a plugin, and it has a goal called "install" to install a local artifact into the maven 
+repository
+there are plugins with goals associated to carry the relevant operation at each 
+phase
+
+test
+|-surefireplugin#test
+
+
+Maven dependency is a library or jar file that is stored on remote repository and upon proper detailed infomration in POM.xml, will be downloaded and reference in our project class path either upon compile , teting or during run time.
+9. What are 3 build life cycles in maven?
+10. In Which tag we will mention output artifact type( like jar, war or any other)?
 
 Unix and Shell scripting 
 ---------------------------------------------------------------------------------------------------------------------
