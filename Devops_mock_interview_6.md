@@ -8,7 +8,13 @@ Git
 3. Difference between git merge and git rebase? 
 4. What is git squash? 
 5. Branching strategy used in your project? 
+Ans: Currently in our project we basicall has master branch, Development branch, feature, release and hotfix branch. 
+Master branch contains production code which is stable, Development branch will have preproduction code, when we are assigned new feature to add on then we will create a branch from development and when we done with new feature we create pull request and  that will be merged to development branch and that perticular eature branch will be deleted.
+Release branch is to support preparation of new production release , hot fix to patch production releases.
+
 6. Command to list all commits? 
+Ans: Git log --oneline
+
 
 Maven 
 ---
